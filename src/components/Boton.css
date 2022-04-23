@@ -1,4 +1,4 @@
-.btn-learn-more {
+.btn-learn-more, .principal {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -20,4 +20,15 @@
   background: #1030d0;
   color: #fff;
   text-decoration: none;
+}
+
+.principal {
+  background: #1030d0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.principal:hover {
+  background: #1065d0;
+  color: #fff;
 }
