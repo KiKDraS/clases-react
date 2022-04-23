@@ -16,7 +16,7 @@ const Section = ({ id, i }) => {
         {temas[i].doc && (
           <Boton
             texto={temas[i].titulo}
-            clases="btn-learn-more"
+            clases="principal"
             ruta={temas[i].doc}
           />
         )}
