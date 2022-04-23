@@ -20,7 +20,7 @@ const Header = () => {
           <div className="col-xl-9 d-flex align-items-center justify-content-lg-between">
             <div className="logo me-auto me-lg-0 d-flex justify-content-center align-items-center">
               <img src={logo} alt="logo it" onClick={scroller.scrollToTop} />
-              <h1>ReactJS - Clase 01</h1>
+              <h1>Clase 01</h1>
             </div>
             <NavBar />
             <Boton
