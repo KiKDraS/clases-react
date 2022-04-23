@@ -8,7 +8,7 @@ const TemaPrincipal = ({ tema }) => {
     <div className="section-title">
       <h2>{titulo}</h2>
       <p>{texto}</p>
-      {images.length !== 0 && <ImagenesEjemplo images={images} />}
+      {images.length !== 0 && <ImagenesEjemplo images={images} rows={images.length} />}
     </div>
   );
 };
