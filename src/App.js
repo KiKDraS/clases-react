@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Main from "./components/Main";
 import { ThemeProvider } from "./context/ThemeContext";
 import { SectionProvider } from "./context/SectionContext";
+import Ejercicio from "./components-ejercicio/Ejercicio";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </SectionProvider>
         <Footer />
       </ThemeProvider>
+      {/* <Ejercicio /> */}
     </>
   );
 }
